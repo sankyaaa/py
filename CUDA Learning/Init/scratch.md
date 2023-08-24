@@ -15,3 +15,5 @@ You will get below commands
     $ wget https://developer.download.nvidia.com/compute/cuda/12.2.1/local_installers/cuda_12.2.1_535.86.10_linux.run
 
     $ sudo sh cuda_12.2.1_535.86.10_linux.run
+
+    $ python -c 'import torch; print torch.cuda.is_available()'
